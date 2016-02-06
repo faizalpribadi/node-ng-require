@@ -48,6 +48,7 @@ good schema architecture, provide seems like this:
 |       |       |       |       |       |       |     |
 |       |       |       |       |       |       |     |
 |       1       2       3       4       5       6     |
+|      PHP    JAVA    ERLANG  PYTHON  GOLANG  NODEJS  |
 |_____________________________________________________|
 ```
 
