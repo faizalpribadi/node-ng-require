@@ -12,6 +12,9 @@ require(
                 'bootstrap': '../vendors/bootstrap/dist/js/bootstrap.min'
             },
             shim: {
+                'jQuery': {
+                    exports: '$'
+                },
                 'angular': {
                     exports: 'angular'
                 },
