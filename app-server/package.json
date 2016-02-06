@@ -1,0 +1,22 @@
+{
+  "name": "app-server",
+  "version": "0.1.0",
+  "description": "Node.js application server",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^1.5.2",
+    "cors": "^2.7.1",
+    "express": "^4.13.4",
+    "lodash": "^4.2.1",
+    "mongoose": "^4.4.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "app-server"
+  ],
+  "author": "faizalpribadi <faizal.pribadi@gmail.com> (http://faizalpribadi.github.io)",
+  "license": "MIT"
+}
