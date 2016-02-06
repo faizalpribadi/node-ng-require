@@ -1,0 +1,14 @@
+{
+  "name": "angular - require.js client view application",
+  "main": [
+    "main.js"
+  ],
+  "dependencies": {
+    "angular": "*",
+    "angular-route": "*",
+    "angular-resource": "*",
+    "jquery": "*",
+    "bootstrap": "*",
+    "requirejs": "*"
+  }
+}
