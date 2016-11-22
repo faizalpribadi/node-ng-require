@@ -2,16 +2,23 @@ define(
     [
         'angular',
         'angular-route',
-        'angular-resource'
+        'angular-resource',
+        'hello/app'
     ],
     function(
-        angular
+        angular,
+        DefaultController
     ) {
-        angular.module('default.app',
-            [
+        angular.module('default.app', [
                 'ngRoute',
-                'ngResource'
-            ]
-        )
+                'ngResource',
+                'hello.app'
+            ])
+            .config(function($routeProvider) {
+                $routeProvider
+                    .when('/', {
+                        templateUrl: 'app/default/template/index.html'
+                    })
+            })
     }
 );
